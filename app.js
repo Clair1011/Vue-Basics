@@ -26,7 +26,7 @@ const app = Vue.createApp({
     add(num) {
       this.counter = this.counter + num;
     },
-    // counter + 5
+    // counter - 5
     reduce(num) {
       this.counter = this.counter - num;
       // this.counter--;
